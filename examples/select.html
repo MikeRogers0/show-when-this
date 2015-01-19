@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>showWhenThis - Checkboxes</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="../test/lib/jquery/jquery.2.1.3.min.js"></script>
+  <script type="text/javascript" src="../src/show-when-this.js"></script>
+</head>
+<body>
+
+    <div id="select">
+      <label>
+        <select name="show_additional_information">
+          <option value="show">Show the nested fields</option>
+          <option value="hide">Hide the nested fields</option>
+        </select>
+      </label>
+      <div class="additional_information">
+        Showing #select .additional_information
+      </div>
+    </div>
+
+    <script>
+      $('#select .additional_information').showWhenThis( {
+        evaluator_callback: function(){ return $('#select select[name="show_additional_information"]').val() == 'show' },
+        change_selector: $('#select [name="show_additional_information"]')
+      });
+    </script>
+    
+  </div>
+</body>
+</html>
+

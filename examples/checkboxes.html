@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Checkboxes - showWhenThis</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="../test/lib/jquery/jquery.2.1.3.min.js"></script>
+  <script type="text/javascript" src="../src/show-when-this.js"></script>
+</head>
+<body>
+  <div id="checkboxes">
+    <label>
+      Show #checkboxes .additional_information: 
+      <input type="checkbox" name="show_additional_information" value="hide" checked="checked" />
+    </label>
+    <div class="additional_information">
+      Showing #checkboxes .additional_information
+    </div>
+  </div>
+
+  <script>
+    $('#checkboxes .additional_information').showWhenThis( {
+      evaluator_callback: function(){ return $('#checkboxes input[name="show_additional_information"]').prop('checked') },
+    change_selector: $('#checkboxes [name="show_additional_information"]')
+    });
+  </script>
+
+</body>
+</html>
+

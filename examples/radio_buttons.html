@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>showWhenThis - Checkboxes</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="../test/lib/jquery/jquery.2.1.3.min.js"></script>
+  <script type="text/javascript" src="../src/show-when-this.js"></script>
+</head>
+<body>
+    <div id="radio_buttons">
+      <label>
+        Show .additional_information: 
+        <input type="radio" name="show_additional_information" value="show" />
+      </label>
+      <label>
+        Hide .additional_information: 
+      <input type="radio" name="show_additional_information" value="hide" checked="checked" />
+      </label>
+      <div class="additional_information">
+        Showing #radio_buttons .additional_information
+      </div>
+    </div>
+
+    <script>
+      $('#radio_buttons .additional_information').showWhenThis( {
+        evaluator_callback: function(){ return $('#radio_buttons input[name="show_additional_information"]:checked').val() == 'show' },
+        change_selector: $('#radio_buttons [name="show_additional_information"]')
+      });
+    </script>
+  </div>
+</body>
+</html>
+

@@ -22,8 +22,8 @@ jQuery plugin to manage conditional showing/hiding of elements.
 ```
 
 ### Options
-* `evaluator_callback` - A function that should return true or false. When true is returned the display_selector will be shown, otherwise it'll be hidden.
-* `display_selector` - A selector pointing to the element you want to show/hide.
+* `evaluator_callback` - A function that should return true or false. When true the element the plugin is attached to will be shown, otherwise it'll be hidden.
+* `change_selector` - The selector that when changed will trigger the rerunning of evaluator_callback.
 
 ## Installing
 

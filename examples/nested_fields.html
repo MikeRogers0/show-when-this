@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>showWhenThis - Checkboxes</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="../test/lib/jquery/jquery.2.1.3.min.js"></script>
+  <script type="text/javascript" src="../src/show-when-this.js"></script>
+</head>
+<body>
+    <form id="nested_fields">
+      <label>
+        Type "Show":
+        <input type="text" name="show_additional_information" value="hide" />
+      </label>
+      <div class="additional_information">
+        Showing #nested_fields .additional_information
+
+        <label>
+          Type "Show":
+          <input type="text" name="show_nested_additional_information" value="hide" required />
+        </label>
+
+        <div class="nested_additional_information">
+          Showing #nested_fields .nested_additional_information
+        </div>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+    
+    <script>
+      $('#nested_fields .additional_information').showWhenThis( {
+        evaluator_callback: function(){ return $('#nested_fields [name="show_additional_information"]').val() == 'show' },
+        change_selector: $('#nested_fields [name="show_additional_information"]')
+      });
+      
+      $('#nested_fields .nested_additional_information').showWhenThis( {
+        evaluator_callback: function(){ return $('#nested_fields [name="show_nested_additional_information"]').val() == 'show' },
+        change_selector: $('#nested_fields .additional_information [name="show_nested_additional_information"]')
+      });
+    </script>
+  </div>
+</body>
+</html>
+
