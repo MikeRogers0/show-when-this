@@ -1,6 +1,6 @@
 {
   "name": "show-when-this",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "jQuery plugin to manage conditional showing/hiding of elements.",
   "keywords": [
     "jquery-plugin",

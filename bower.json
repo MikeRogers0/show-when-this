@@ -1,0 +1,27 @@
+{
+  "name": "show-when-this",
+  "version": "0.1.2",
+  "homepage": "https://github.com/MikeRogers0/show-when-this",
+  "authors": [
+    "Mike Rogers <me@mikerogers.io>"
+  ],
+  "description": "jQuery plugin to manage conditional showing/hiding of elements.",
+  "main": "/src/show-when-this.js",
+  "keywords": [
+    "jquery-plugin",
+    "zepto-plugin",
+    "library",
+    "input",
+    "form",
+    "select",
+    "displaying"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
