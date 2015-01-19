@@ -1,3 +1,7 @@
+v0.1.1:
+  date: 2015-01-19
+  changes:
+	- Fixing errors with package.json stopping travis passing
 v0.1.0:
   date: 2015-01-19
   changes:
