@@ -3,11 +3,13 @@
   "version": "0.1.1",
   "description": "jQuery plugin to manage conditional showing/hiding of elements.",
   "keywords": [
+    "jquery-plugin",
+    "zepto-plugin",
     "library",
-  "input",
-  "form",
-  "select",
-  "displaying"
+    "input",
+    "form",
+    "select",
+    "displaying"
     ],
   "homepage": "https://github.com/MikeRogers0/show-when-this",
   "repository": {
