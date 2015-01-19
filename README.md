@@ -21,6 +21,10 @@ jQuery plugin to manage conditional showing/hiding of elements.
 </script>
 ```
 
+The above work a bit like this gif:
+
+<img src="https://raw.githubusercontent.com/MikeRogers0/show-when-this/master/examples/show-when-this-radio-buttons.gif" alt="Radio buttons example" style="border:0;">
+
 You can find other [usage examples](https://github.com/MikeRogers0/show-when-this/tree/master/examples) in the repo.
 
 ### Options
