@@ -1,0 +1,34 @@
+{
+  "name": "show-when-this",
+  "version": "0.1.0",
+  "title": "Show when this",
+  "author": {
+    "name": "Mike Rogers",
+    "url": "https://mikerogers.io/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=2.3"
+  },
+  "description": "jQuery plugin to manage conditional showing/hiding of elements.",
+  "keywords": [
+    "jquery",
+    "input",
+    "form",
+    "select",
+    "displaying"
+  ],
+  "homepage": "https://github.com/MikeRogers0/show-when-this",
+  "bugs": "https://github.com/MikeRogers0/show-when-this/issues",
+  "maintainers": [
+    {
+      "name": "Mike Rogers",
+      "url": "https://mikerogers.io/"
+    }
+  ]
+}

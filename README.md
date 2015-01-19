@@ -21,6 +21,8 @@ jQuery plugin to manage conditional showing/hiding of elements.
 </script>
 ```
 
+You can find other [usage examples](https://github.com/MikeRogers0/show-when-this/tree/master/examples) in the repo.
+
 ### Options
 * `evaluator_callback` - A function that should return true or false. When true the element the plugin is attached to will be shown, otherwise it'll be hidden.
 * `change_selector` - The selector that when changed will trigger the rerunning of evaluator_callback.
