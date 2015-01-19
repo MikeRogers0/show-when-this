@@ -1,5 +1,5 @@
 /*!
-  show-when-this 1.0.0 - 19th Jan 2015
+  show-when-this 0.1.0 - 19th Jan 2015
   license: MIT
   @MikeRogers0
 */
