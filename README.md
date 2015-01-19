@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
-# show-when-this
+# Show when this
 jQuery plugin to manage conditional showing/hiding of elements.
 
 ## Usage
