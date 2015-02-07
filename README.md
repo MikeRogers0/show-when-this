@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
+[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this) [![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
 # Show when this
 jQuery plugin to manage conditional showing/hiding of elements.
 
