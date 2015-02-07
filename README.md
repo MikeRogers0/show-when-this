@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this) [![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
 # Show when this
 jQuery plugin to manage conditional showing/hiding of elements.
 
@@ -38,6 +37,13 @@ Copy the `show-when-this.min.js` file into your project and link it up.
 ## Getting going with Zepto
 
 If you are using this plugin with [Zepto](http://zeptojs.com/) instead of [jQuery](http://jquery.com/), make sure you include the modules `zepto event data selector` in your build.
+
+## Badges
+[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
+[![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
+[![PullReview stats](https://www.pullreview.com/github/MikeRogers0/show-when-this/badges/master.svg?)](https://www.pullreview.com/github/MikeRogers0/show-when-this/reviews/master)
+[![Code Climate](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/gpa.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
+[![Test Coverage](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/coverage.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
 
 ## Thanks
 
