@@ -44,7 +44,7 @@ source 'https://rails-assets.org' do
 end
 ```
 
-The include it in your `application.js`
+Then include it in your `application.js`
 
 ```js
 //= require show-when-this
