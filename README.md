@@ -34,6 +34,16 @@ You can find other [usage examples](https://github.com/MikeRogers0/show-when-thi
 
 Copy the `show-when-this.min.js` file into your project and link it up.
 
+### Gemfile
+
+It's setup on [Rails Assets](https://rails-assets.org/), just add the following to your Gemfile to use it in rails.
+
+```text
+source 'https://rails-assets.org' do
+  gem 'rails-assets-show-when-this'
+end
+```
+
 ## Getting going with Zepto
 
 If you are using this plugin with [Zepto](http://zeptojs.com/) instead of [jQuery](http://jquery.com/), make sure you include the modules `zepto event data selector` in your build.
