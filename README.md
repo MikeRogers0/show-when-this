@@ -36,12 +36,18 @@ Copy the `show-when-this.min.js` file into your project and link it up.
 
 ### Gemfile
 
-It's setup on [Rails Assets](https://rails-assets.org/), just add the following to your Gemfile to use it in rails.
+It's setup on [Rails Assets](https://rails-assets.org/), just add the following to your `Gemfile` to use it in rails.
 
-```text
+```ruby
 source 'https://rails-assets.org' do
   gem 'rails-assets-show-when-this'
 end
+```
+
+The include it in your `application.js`
+
+```js
+//= require show-when-this
 ```
 
 ## Getting going with Zepto
