@@ -3,7 +3,7 @@
 jQuery plugin to manage conditional showing/hiding of elements.
 
 [![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
-[![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
+[![Codacy Badge](https://www.codacy.com/project/badge/331e24b1543945779731dc9fb465da4d)](https://www.codacy.com/app/me_8/show-when-this)
 [![PullReview stats](https://www.pullreview.com/github/MikeRogers0/show-when-this/badges/master.svg?)](https://www.pullreview.com/github/MikeRogers0/show-when-this/reviews/master)
 [![Code Climate](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/gpa.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
 [![Test Coverage](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/coverage.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
