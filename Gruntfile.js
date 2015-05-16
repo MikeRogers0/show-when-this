@@ -1,5 +1,4 @@
 module.exports = function (grunt) {
-  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
@@ -11,9 +10,6 @@ module.exports = function (grunt) {
   })();
 
   grunt.initConfig({
-    jshint: {
-      all: ['src/*.js', 'test/*.js']
-    },
     qunit: {
       all: ['test/jquery-2.1.html', 'test/zepto-1.11.html']
     },
@@ -29,6 +25,6 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('test', ['jshint', 'qunit']);
+  grunt.registerTask('test', ['qunit']);
   grunt.registerTask('default', ['test', 'uglify']);
 };
