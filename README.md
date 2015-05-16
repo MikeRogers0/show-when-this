@@ -54,6 +54,30 @@ Then include it in your `application.js`
 
 If you are using this plugin with [Zepto](http://zeptojs.com/) instead of [jQuery](http://jquery.com/), make sure you include the modules `zepto event data selector` in your build.
 
+## Testing and building
+
+### Setup the enviroment
+
+Install npm, then run: 
+
+```
+npm install -g grunt-cli
+npm install
+
+```
+
+### Run the tests (Qunit)
+
+```
+grunt qunit:all
+```
+
+###
+
+```
+grunt uglify:showWhenThis
+```
+
 ## Badges
 [![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
 [![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)

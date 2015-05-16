@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         files: {
           'show-when-this.min.js': [ 'src/show-when-this.js' ]
         },
-         options: {
+        options: {
           banner: banner
         }
       }
