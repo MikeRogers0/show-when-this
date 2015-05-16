@@ -1,5 +1,12 @@
 # Show when this
+
 jQuery plugin to manage conditional showing/hiding of elements.
+
+[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
+[![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
+[![PullReview stats](https://www.pullreview.com/github/MikeRogers0/show-when-this/badges/master.svg?)](https://www.pullreview.com/github/MikeRogers0/show-when-this/reviews/master)
+[![Code Climate](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/gpa.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
+[![Test Coverage](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/coverage.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
 
 ## Usage
 
@@ -32,11 +39,11 @@ You can find other [usage examples](https://github.com/MikeRogers0/show-when-thi
 
 ## Installing
 
-Copy the `show-when-this.min.js` file into your project and link it up.
+If you want to want to use show-when-this without a package manager just copy the `show-when-this.min.js` file into your project, link it up & you're good to go.
 
-### Gemfile
+### Rails
 
-It's setup on [Rails Assets](https://rails-assets.org/), just add the following to your `Gemfile` to use it in rails.
+If you want to use show-this-when in your rails project, you can! It's setup on [Rails Assets](https://rails-assets.org/), so just add the following to your `Gemfile` to use it in rails.
 
 ```ruby
 source 'https://rails-assets.org' do
@@ -54,12 +61,31 @@ Then include it in your `application.js`
 
 If you are using this plugin with [Zepto](http://zeptojs.com/) instead of [jQuery](http://jquery.com/), make sure you include the modules `zepto event data selector` in your build.
 
-## Badges
-[![Build Status](https://travis-ci.org/MikeRogers0/show-when-this.svg?branch=master)](https://travis-ci.org/MikeRogers0/show-when-this)
-[![Codacy Badge](https://www.codacy.com/project/badge/f83d2a3a47cc4860a71969875dba8f31)](https://www.codacy.com/public/me_8/show-when-this)
-[![PullReview stats](https://www.pullreview.com/github/MikeRogers0/show-when-this/badges/master.svg?)](https://www.pullreview.com/github/MikeRogers0/show-when-this/reviews/master)
-[![Code Climate](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/gpa.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
-[![Test Coverage](https://codeclimate.com/github/MikeRogers0/show-when-this/badges/coverage.svg)](https://codeclimate.com/github/MikeRogers0/show-when-this)
+## Testing and building
+
+### Setup the enviroment
+
+Install npm, then run: 
+
+```
+npm install -g grunt-cli
+npm install
+
+```
+
+### Run the tests (Qunit)
+
+```
+grunt qunit:all
+```
+
+Or drag and drop the files from /test/*.html into your browser.
+
+### Build minified file
+
+```
+grunt uglify:showWhenThis
+```
 
 ## Thanks
 
