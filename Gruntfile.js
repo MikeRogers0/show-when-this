@@ -15,7 +15,7 @@ module.exports = function (grunt) {
       all: ['src/*.js', 'test/*.js']
     },
     qunit: {
-      all: ['test/jquery-2.1.3.html', 'test/zepto.html']
+      all: ['test/jquery-2.1.html', 'test/zepto-1.11.html']
     },
     uglify: {
       showWhenThis: {

@@ -72,7 +72,7 @@ npm install
 grunt qunit:all
 ```
 
-###
+### Build minified file
 
 ```
 grunt uglify:showWhenThis
