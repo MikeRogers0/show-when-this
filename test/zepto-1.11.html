@@ -3,13 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Zepto - showWhenThis</title>
-  <link rel="stylesheet" href="../node_modules/qunitjs/qunit/qunit.css">
-  <script type="text/javascript" src="../node_modules/zepto-full/zepto.min.js"></script>
+  <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css">
+  <script type="text/javascript" src="../bower_components/zepto-full/zepto.min.js"></script>
   <script type="text/javascript" src="../src/show-when-this.js"></script>
 </head>
 <body>
   <div id="qunit"></div>
   <div id="qunit-fixture">
+    
+    <div id="default_settings">
+      <input type="checkbox" name="show_additional_information" value="hide" checked="checked" />
+      <div class="additional_information">
+        Showing #checkboxes .additional_information
+      </div>
+    </div>
     
     <div id="radio_buttons">
       <input type="radio" name="show_additional_information" value="show" />
@@ -50,8 +57,9 @@
     </div>
     
   </div>
-  <script type="text/javascript" src="../node_modules/qunitjs/qunit/qunit.js"></script>
+  <script type="text/javascript" src="../bower_components/qunit/qunit/qunit.js"></script>
   
+  <script src="units/default_setup.js"></script>
   <script src="units/radio_buttons.js"></script>
   <script src="units/checkboxes.js"></script>
   <script src="units/select.js"></script>

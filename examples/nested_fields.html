@@ -31,12 +31,12 @@
     
     <script>
       $('#nested_fields .additional_information').showWhenThis( {
-        evaluator_callback: function(){ return $('#nested_fields [name="show_additional_information"]').val() == 'show' },
+        evaluator_callback: function(){ return $('#nested_fields [name="show_additional_information"]').val() === 'show' },
         change_selector: $('#nested_fields [name="show_additional_information"]')
       });
       
       $('#nested_fields .nested_additional_information').showWhenThis( {
-        evaluator_callback: function(){ return $('#nested_fields [name="show_nested_additional_information"]').val() == 'show' },
+        evaluator_callback: function(){ return $('#nested_fields [name="show_nested_additional_information"]').val() === 'show' },
         change_selector: $('#nested_fields .additional_information [name="show_nested_additional_information"]')
       });
     </script>

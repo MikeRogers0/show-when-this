@@ -21,7 +21,7 @@ jQuery plugin to manage conditional showing/hiding of elements.
 
 <script>
   $('#radio_buttons .additional_information').showWhenThis( {
-    evaluator_callback: function(){ return $('#radio_buttons input[name="show_additional_information"]:checked').val() == '1' },
+    evaluator_callback: function(){ return $('#radio_buttons input[name="show_additional_information"]:checked').val() === '1' },
     change_selector: $('[name="show_additional_information"]')
   });
 </script>
@@ -71,7 +71,9 @@ Install npm, then run:
 
 ```
 npm install -g grunt-cli
+npm install -g bower
 npm install
+bower install
 
 ```
 
