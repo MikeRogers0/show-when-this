@@ -1,13 +1,13 @@
-QUnit.module("Select ( #select )", {
+QUnit.module('Select ( #select )', {
   beforeEach: function(){
     $('#select .additional_information').showWhenThis( {
-      evaluator_callback: function(){ return $('#select select[name="show_additional_information"]').val() == 'show' },
+      evaluator_callback: function(){ return $('#select select[name="show_additional_information"]').val() === 'show' },
       change_selector: $('#select [name="show_additional_information"]')
     });
   }
 });
 
-QUnit.test( "Changing the select value hides/shows the display_selector", function( assert ) {
+QUnit.test( 'Changing the select value hides/shows the display_selector', function( assert ) {
   $('#select [name="show_additional_information"]').val('hide')
   $('#select [name="show_additional_information"]').trigger('change');
 

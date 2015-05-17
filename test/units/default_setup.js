@@ -1,4 +1,4 @@
-QUnit.module("Default setup ( #default_settings )", {
+QUnit.module('Default setup ( #default_settings )', {
   beforeEach: function(){
     $('#default_settings .additional_information').showWhenThis( {
       change_selector: $('#default_settings [name="show_additional_information"]')
@@ -6,7 +6,7 @@ QUnit.module("Default setup ( #default_settings )", {
   }
 });
 
-QUnit.test( "Having no evaluator_callback set, shows element", function( assert ) {
+QUnit.test( 'Having no evaluator_callback set, shows element', function( assert ) {
   assert.ok( $('#default_settings .additional_information').is(':visible') );
 
   $('#default_settings [name="show_additional_information"]').prop('checked', false);

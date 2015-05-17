@@ -23,7 +23,7 @@
 
     <script>
       $('#select .additional_information').showWhenThis( {
-        evaluator_callback: function(){ return $('#select select[name="show_additional_information"]').val() == 'show' },
+        evaluator_callback: function(){ return $('#select select[name="show_additional_information"]').val() === 'show' },
         change_selector: $('#select [name="show_additional_information"]')
       });
     </script>
