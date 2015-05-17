@@ -1,3 +1,8 @@
+v1.0.0:
+  date: 2015-06-17
+  changes:
+	- 100% code coverage
+	- Tests around jQuery 1.11- 
 v0.1.4:
   date: 2015-06-16
   changes:
