@@ -22,7 +22,7 @@ module.exports = function (grunt) {
           lcovReport: 'report/lcov'
         }
       },
-      all: ['test/jquery-2.1.html', 'test/zepto-1.11.html']
+      all: ['test/jquery-1.11.html', 'test/jquery-2.1.html', 'test/zepto-1.11.html']
     },
     uglify: {
       showWhenThis: {
