@@ -26,7 +26,7 @@
   ],
   "devDependencies": {
     "jquery": "~2.1.0",
-    "jquery-1.11.3": "git@github.com:jquery/jquery.git#1.11.3",
+    "jquery-1.11.3": "https://github.com/jquery/jquery.git#1.11.3",
     "qunit": "~1.17.0",
     "zepto-full": "~1.1.0"
   }
